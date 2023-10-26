@@ -57,3 +57,35 @@ restartBtn.addEventListener("click", ()=>{
     count = 0;
     enableButtons();
 });
+
+const winnerCheck = () =>{
+    for(let i of winning){
+        let [element1, element2, element3] = [
+            btn[i[0]].innerText,
+            btn[i[1]].innerText,
+            btn[i[2]].innerText,
+        ];
+        if(element1 != "" && (element2 != "")&(element3 != "")){
+            if(element1 == element2 == element3){
+                winFun(element1);
+            }
+        }
+    }
+};
+
+btn.forEach((element) =>{
+    element.addEventListener("click", () =>{
+        if(xTurn){
+            xTurn = false;
+            element.innerText = "X";
+            element.disabled = true;
+            element.style.color = '#c3195d'
+        }
+        else{
+            xTurn = true;
+            element.innerText = "0";
+            element.disabled = true;
+            element.style.color = '#240747'
+        }
+    });
+}); 
