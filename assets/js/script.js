@@ -42,3 +42,18 @@ const winFun = (letter) => {
         message.style.color = '#3F66Da'
     }
 };
+
+const drawFun = () =>{
+    disableButtons();
+    message.innerHTML = "Draw";
+}
+
+newgameBtn.addEventListener("click", ()=>{
+    count = 0;
+    enableButtons();
+});
+
+restartBtn.addEventListener("click", ()=>{
+    count = 0;
+    enableButtons();
+});
