@@ -12,3 +12,39 @@ body {
 html {
     font-size: 16px;
 }
+.wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+
+.button-opt {
+    background-color: #d8d7d7;
+    height: 20vmin;
+    width: 20vmin;
+    border: none;
+    border-radius: 8px;
+    font-size: 12vmin;
+
+}
+
+#restart {
+    font-size: 30px;
+    background-color: #240747;
+    color: #d8d7d7;
+    display: block;
+    cursor: pointer;
+    margin: 1.5em auto 0 auto;
+    padding: 0.5em;
+    position: relative;
+    border: none;
+}
