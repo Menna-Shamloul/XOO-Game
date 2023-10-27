@@ -12,6 +12,13 @@ body {
 html {
     font-size: 16px;
 }
+#header{
+    font-size: 50px;
+    color: #240747;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
 .wrapper {
     position: absolute;
     transform: translate(-50%, -50%);
