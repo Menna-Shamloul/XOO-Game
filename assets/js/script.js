@@ -65,8 +65,8 @@ const winnerCheck = () =>{
             btn[i[1]].innerText,
             btn[i[2]].innerText,
         ];
-        if(element1 != "" && (element2 != "")&(element3 != "")){
-            if(element1 == element2 == element3){
+        if(element1 != "" && (element2 != "") & (element3 != "")){
+            if(element1 == element2 && element2 == element3){
                 winFun(element1);
             }
         }
@@ -74,8 +74,8 @@ const winnerCheck = () =>{
 };
 
 btn.forEach((element) =>{
-    element.addEventListener("click", () =>{
-        if(xTurn){
+    element.addEventListener("click", () => { 
+        if (xTurn){
             xTurn = false;
             element.innerText = "X";
             element.disabled = true;
@@ -83,9 +83,15 @@ btn.forEach((element) =>{
         }
         else{
             xTurn = true;
-            element.innerText = "0";
+            element.innerText = "O";
             element.disabled = true;
             element.style.color = '#240747'
         }
+        count += 1;
+        if (count == 9) {
+            drawFun();
+        }
+        winnerCheck();
     });
 }); 
+window.onload = enableButtons;
