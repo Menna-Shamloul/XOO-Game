@@ -89,3 +89,19 @@ html {
     text-align: center;
     font-size: 1em;
 }
+
+#rule{
+    width: 20%;
+    border: 2px solid;
+    color: #240747;
+    padding: 7px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+#line{
+    font-size: 1em;
+}
+#question{
+    font-size: 1em;
+}
