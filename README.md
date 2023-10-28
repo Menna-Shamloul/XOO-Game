@@ -65,3 +65,11 @@ It is box defines the game rules and how player could win.
 The page achieved great performance.
 
 ![Lighthouse Report]()
+
+## Libraries & Programs
+
+- **Github -** to store my repository
+- **Codeanywhere -** to create my project files
+- **Favicon -** for my project icons
+- **AmIResponsive -** to check site responsivness
+- **Dev Tools -** to ensure the site looked good across all screens
