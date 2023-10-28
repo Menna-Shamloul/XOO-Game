@@ -22,4 +22,10 @@ There are many features exist in this app that can help the player with the game
 
 ## Testing
 
-- I test thi
+- I tested that this game work in different browsers : Chrome , Firefox , Safari.
+- I tested that this project is responsive , looks good and fuctions on all screen using the devtools device.
+- I tested that all buttons works correct.
+
+## Bugs
+
+### _Solved Buges_
