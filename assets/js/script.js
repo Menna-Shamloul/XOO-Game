@@ -15,6 +15,11 @@ let winning = [
     [2,4,6],
 ];
 
+function play() {
+    var audio = new Audio('assets/audio/win.wav');
+    audio.play();
+}
+
 let xTurn = true;
 let count = 0;
 
@@ -36,10 +41,12 @@ const winFun = (letter) => {
     if(letter == "X"){
         message.innerHTML = "'X' Wins";
         message.style.color = '#ED3E3E'
+        play()
     }
     else{
         message.innerHTML = "'O' Wins";
         message.style.color = '#3F66Da'
+        play()
     }
 };
 
