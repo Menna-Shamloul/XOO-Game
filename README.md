@@ -12,3 +12,14 @@ It is played by two people who take turn marking on X or O on 3x3 grid.The first
 
 There are many features exist in this app that can help the player with the game:
 
+- **Instruction** The instruction show the player how to play the game.
+- **Restart Game Button** The restart button to be used to restart game.
+- **New Game Button** The start game button feature offers users the ability to initiate the game at their discretion.
+
+![Feature]()
+
+![Feature]()
+
+## Testing
+
+- I test thi
