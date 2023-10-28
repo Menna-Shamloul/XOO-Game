@@ -73,3 +73,11 @@ The page achieved great performance.
 - **Favicon -** for my project icons
 - **AmIResponsive -** to check site responsivness
 - **Dev Tools -** to ensure the site looked good across all screens
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follow:
+
+## Credits
+
+## Media
