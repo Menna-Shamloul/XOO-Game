@@ -29,3 +29,39 @@ There are many features exist in this app that can help the player with the game
 ## Bugs
 
 ### _Solved Buges_
+
+## What 's New ?
+
+In this part , you can see the existing updates to the project.
+
+### _cheerful colors_
+
+The background image has been replaced with cheerful purple background and also extended to the buttons for harmonious look.
+
+### _New Game Buttons_
+
+New game button allows users to start new game.
+
+### _Game Instruction_
+
+It is box defines the game rules and how player could win.
+
+## Validator Testing
+
+### _HTML_
+
+- No errors were found when passing through the official W3C validator.
+
+### _CSS_
+
+- No errors were found when passing through the official (jisaw) validator.
+
+### _JS_
+
+- No issues were found through JS Hint.
+
+### _Lighthouse_
+
+The page achieved great performance.
+
+![Lighthouse Report]()
