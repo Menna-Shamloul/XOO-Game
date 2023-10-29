@@ -73,11 +73,19 @@ The page achieved great performance.
 - **Favicon -** for my project icons
 - **AmIResponsive -** to check site responsivness
 - **Dev Tools -** to ensure the site looked good across all screens
+- **Mixkit -** for my project audio
 
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follow:
 
+* In the GitHub repository, navigate to settings tab. On the left-hand side under Code and automation , select Pages and from the sourse section drop-down menu, select the Main Branch. Once the main branch has been selected, the page will be automatically refresh with detailed ribbon display to indicate the successful deployment. The live link can be found here,
+[Tic Tac Toe]()
+
 ## Credits
+
+- For general informations [W3 Schools](https://www.w3schools.com/)
+- I used [CodeCreative]() channle on YouTub as main guide and followed it step by step.
+- I picked the color of the project from [W3 Schools](https://www.w3schools.com/)
 
 ## Media
