@@ -6,6 +6,26 @@ It is played by two people who take turn marking on X or O on 3x3 grid.The first
 ![AmIResponsive]()
 
 
+## UX
+
+The main aim with the user interface in this project is to provide clear and concise options to the user.
+
+Large buttons and fonts make it easy to user to interact with different elements and receive information back from them.
+
+Color-depentent text is used to clarify things such as turn states.
+
+Instruction box is used to give more explaintion about game play method.
+
+### Colour Scheme
+
+The site uses bright,cherrful colours for the gameboard elements with different fonts and buttons colors.
+
+I used in this site cherrful colours to attract users and allow them to instantly spot their piece on the gameboard.
+
+![Screenshot]()
+
+### T
+
 ## Features
 
 ### _Existing Features_
