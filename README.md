@@ -24,7 +24,9 @@ I used in this site cherrful colours to attract users and allow them to instantl
 
 ![Screenshot]()
 
-### T
+### Typography
+
+Google Fonts as used for all main fonts in the site.
 
 ## Features
 
@@ -33,7 +35,9 @@ I used in this site cherrful colours to attract users and allow them to instantl
 There are many features exist in this app that can help the player with the game:
 
 - **Instruction** The instruction show the player how to play the game.
+- **Turn Box** The box which shows the players turn.
 - **Restart Game Button** The restart button to be used to restart game.
+- **Win Message** The message which show the winner of the game.
 - **New Game Button** The start game button feature offers users the ability to initiate the game at their discretion.
 
 ![Feature]()
