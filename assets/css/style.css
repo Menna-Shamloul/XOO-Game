@@ -15,11 +15,14 @@ html {
 
 .title{
     background: #240747;
-    padding: 7px 0;
+    padding: 7px 0 ;
     margin: 7px 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     color: #c3195d;
+    width: 65vmin;
+    
+    
 
 }
 span{
