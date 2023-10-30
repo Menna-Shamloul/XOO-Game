@@ -5,6 +5,7 @@ let restartBtn = document.getElementById("restart");
 let message = document.getElementById("message");
 let title =document.querySelector('.title');
 
+
 let winning = [
     [0,1,2],
     [0,3,6],
@@ -43,11 +44,13 @@ const winFun = (letter) => {
         message.innerHTML = "'X' Wins";
         message.style.color = '#ED3E3E'
         play()
+        
     }
     else{
         message.innerHTML = "'O' Wins";
         message.style.color = '#3F66Da'
         play()
+        
     }
 };
 
@@ -59,11 +62,13 @@ const drawFun = () =>{
 newgameBtn.addEventListener("click", ()=>{
     count = 0;
     enableButtons();
+    title.innerHTML = 'X O GAME'
 });
 
 restartBtn.addEventListener("click", ()=>{
     count = 0;
     enableButtons();
+    title.innerHTML = 'X O GAME'
 });
 
 const winnerCheck = () =>{
@@ -88,14 +93,14 @@ btn.forEach((element) =>{
             element.innerText = "X";
             element.disabled = true;
             element.style.color = '#c3195d'
-            title.innerHTML = 'O';
+            title.innerHTML = 'O Turn';
         }
         else{
             xTurn = true;
             element.innerText = "O";
             element.disabled = true;
             element.style.color = '#240747'
-            title.innerHTML = 'X';
+            title.innerHTML = 'X Turn';
         }
         count += 1;
         if (count == 9) {
