@@ -126,8 +126,7 @@ span{
     border: 2px solid;
     color: #240747;
     display: flex;
-    width: 20px
-    height: 20px
+    margin: 0 auto;
     
     
 }
