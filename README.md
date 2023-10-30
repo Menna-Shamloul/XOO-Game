@@ -152,8 +152,14 @@ You can for the repository by following steps:
 
 ## Credits
 
+### Content
+
 - For general informations [W3 Schools](https://www.w3schools.com/)
 - I used [CodeCreative]() channle on YouTub as main guide and followed it step by step.
+- I used [Youtube]() video on YouTub as guide and followed it in some steps.
 - I picked the color of the project from [W3 Schools](https://www.w3schools.com/)
 
-## Media
+### Media
+
+- I used [Freesound]() for sound effects for the game.
+- I used [Favicon]() for add favicon to my site.
