@@ -88,13 +88,19 @@ It is box defines the game rules and how player could win.
 
 - No errors were found when passing through the official W3C validator.
 
+![Html Code Validator]()
+
 ### _CSS_
 
 - No errors were found when passing through the official (jisaw) validator.
 
+![Css Code Validator]()
+
 ### _JS_
 
 - No issues were found through JS Hint.
+
+![JS Code Validator]()
 
 ### _Lighthouse_
 
@@ -115,8 +121,34 @@ The page achieved great performance.
 
 The site was deployed to GitHub pages. The steps to deploy are as follow:
 
-* In the GitHub repository, navigate to settings tab. On the left-hand side under Code and automation , select Pages and from the sourse section drop-down menu, select the Main Branch. Once the main branch has been selected, the page will be automatically refresh with detailed ribbon display to indicate the successful deployment. The live link can be found here,
-[Tic Tac Toe]()
+* In the GitHub repository, navigate to settings tab. On the left-hand side under Code and automation , select Pages and from the sourse section drop-down menu, select the Main Branch. Once the main branch has been selected, the page will be automatically refresh with detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here,[Tic Tac Toe]()
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+### Cloning
+
+You can follows these steps to clone the repository:
+
+1. Go to the GitHub repository.
+2. Locate the Code button above the list of files and clik it.
+3. Select if you perfer to clone using HTTPS,SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type command to clone repository
+7. Press Enter to create your local clone
+
+### Forking
+
+We make a copy of the original repository on your GitHub account by forking the GitHub repository, in order to view and make changes without affecting the original repository.
+You can for the repository by following steps:
+
+1. Log into GitHub and locate the GitHub repository
+2. At the top of the repository , above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account.
 
 ## Credits
 
