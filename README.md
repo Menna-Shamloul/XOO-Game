@@ -155,17 +155,17 @@ You can for the repository by following steps:
 ### Content
 
 - For general informations [W3 Schools](https://www.w3schools.com/)
-- I used [CodeCreative]() channle on YouTub as main guide and followed it step by step.
-- I used [Youtube]() video on YouTub as guide and followed it in some steps.
+- I used [CodeCreative](https://youtu.be/al_AgC2NSCo?si=Fw_8dU4loUdwzKWq) channle on YouTub as main guide and followed it step by step.
+- I used [Youtube](https://youtu.be/KzUmoedBmZ4?si=wD9POsalQSMK-apQ) video on YouTub as guide and followed it in some steps.
 - I picked the color of the project from [W3 Schools](https://www.w3schools.com/)
 
 ### Media
 
-- I used [Freesound]() for sound effects for the game.
-- I used [Favicon]() for add favicon to my site.
+- I used [Freesound](https://mixkit.co/free-sound-effects/win/?fbclid=IwAR2dPCI_3Msu5rmPk7w12sHYSHx5n3-1haowvSSBl_uIZG7kl_CZwuqZxNQ) for sound effects for the game.
+- I used [Favicon](https://favicon.io/) for add favicon to my site.
   
 ### Acknowledgments
 
-- I would like to thank my Code Institute mentor, []() for his support throughout the development of this project.
-- I would like to thank the [Code Institute]() tutor team for their assistance troubleshooting some project issues.
+- I would like to thank my Code Institute mentor, [Precious](https://github.com/precious-ijege) for his support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net/de/) tutor team for their assistance troubleshooting some project issues.
 - I would like to thank my husband Tarek for playing this game with me alot of time.
