@@ -22,7 +22,7 @@ The site uses bright,cherrful colours for the gameboard elements with different 
 
 I used in this site cherrful colours to attract users and allow them to instantly spot their piece on the gameboard.
 
-![Screenshot]()
+![Screenshot](assets/images/color-imag.jpg)
 
 ### Typography
 
@@ -40,15 +40,11 @@ There are many features exist in this app that can help the player with the game
 - **Win Message** The message which show the winner of the game.
 - **New Game Button** The start game button feature offers users the ability to initiate the game at their discretion.
 
-![Feature]()
+![Feature](assets/images/home-image.png)
 
-![Feature]()
+![Feature](assets/images/instruction-image.png)
 
-![Feature]()
-
-![Feature]()
-
-![Feature]()
+![Feature](assets/images/message-image.png)
 
 
 ### Future Features
@@ -88,7 +84,7 @@ It is box defines the game rules and how player could win.
 
 - No errors were found when passing through the official W3C validator.
 
-![Html Code Validator]()
+![Html Code Validator](assets/images/html-val.png)
 
 ### _CSS_
 
@@ -106,7 +102,7 @@ It is box defines the game rules and how player could win.
 
 The page achieved great performance.
 
-![Lighthouse Report]()
+![Lighthouse Report](assets/images/lighthouse-image.png)
 
 ## Libraries & Programs
 
