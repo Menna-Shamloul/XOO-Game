@@ -118,13 +118,14 @@ span{
     font-size: 0.8em;
 }
 #question{
-    font-size: o.8em;
+    font-size: 0.8em;
 }
 #tools{
     
     position: absolute;
     border: 2px solid;
     color: #240747;
+    display: flex;
     
     
 }
