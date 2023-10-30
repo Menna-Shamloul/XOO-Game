@@ -44,6 +44,18 @@ There are many features exist in this app that can help the player with the game
 
 ![Feature]()
 
+![Feature]()
+
+![Feature]()
+
+![Feature]()
+
+
+### Future Features
+
+- The ability to play against computer.
+- Add more sounds effects.
+
 ## Testing
 
 - I tested that this game work in different browsers : Chrome , Firefox , Safari.
