@@ -3,6 +3,7 @@ let popup = document.querySelector(".popup");
 let newgameBtn = document.getElementById("new-game");
 let restartBtn = document.getElementById("restart");
 let message = document.getElementById("message");
+let title =document.querySelector('.title');
 
 let winning = [
     [0,1,2],
@@ -87,12 +88,14 @@ btn.forEach((element) =>{
             element.innerText = "X";
             element.disabled = true;
             element.style.color = '#c3195d'
+            title.innerHTML = 'O';
         }
         else{
             xTurn = true;
             element.innerText = "O";
             element.disabled = true;
             element.style.color = '#240747'
+            title.innerHTML = 'X';
         }
         count += 1;
         if (count == 9) {

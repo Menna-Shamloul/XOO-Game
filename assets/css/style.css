@@ -12,12 +12,16 @@ body {
 html {
     font-size: 16px;
 }
-#header{
-    font-size: 50px;
-    color: #240747;
+
+.title{
+    background: #240747;
+    padding: 7px 0;
+    margin: 7px 0;
     text-align: center;
-    padding: 5px;
-    margin: 0;
+    font-size: 25px;
+}
+span{
+    color: #d8d7d7;
 }
 .wrapper {
     position: absolute;
