@@ -163,3 +163,9 @@ You can for the repository by following steps:
 
 - I used [Freesound]() for sound effects for the game.
 - I used [Favicon]() for add favicon to my site.
+  
+### Acknowledgments
+
+- I would like to thank my Code Institute mentor, []() for his support throughout the development of this project.
+- I would like to thank the [Code Institute]() tutor team for their assistance troubleshooting some project issues.
+- I would like to thank my husband Tarek for playing this game with me alot of time.
