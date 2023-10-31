@@ -3,7 +3,7 @@
 Tac Tac Toe game is a class game that is commonly played amoung all people spiecally.
 It is played by two people who take turn marking on X or O on 3x3 grid.The first person to mark three of their signs in a horizontal, vertical,diagonal row is the winner.
 
-![AmIResponsive]()
+![AmIResponsive](assets/images/resp-image.png)
 
 
 ## UX
