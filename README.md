@@ -58,9 +58,6 @@ There are many features exist in this app that can help the player with the game
 - I tested that this project is responsive , looks good and fuctions on all screen using the devtools device.
 - I tested that all buttons works correct.
 
-## Bugs
-
-### _Solved Buges_
 
 ## What 's New ?
 
@@ -96,7 +93,6 @@ It is box defines the game rules and how player could win.
 
 - No issues were found through JS Hint.
 
-![JS Code Validator]()
 
 ### _Lighthouse_
 
@@ -112,6 +108,9 @@ The page achieved great performance.
 - **AmIResponsive -** to check site responsivness
 - **Dev Tools -** to ensure the site looked good across all screens
 - **Mixkit -** for my project audio
+- **HTMl -** used for the main site content
+- **CSS -** used for the main site design and layout
+- **JavaScript -** used for make the game
 
 ## Deployment
 
