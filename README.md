@@ -118,7 +118,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follow:
 
 * In the GitHub repository, navigate to settings tab. On the left-hand side under Code and automation , select Pages and from the sourse section drop-down menu, select the Main Branch. Once the main branch has been selected, the page will be automatically refresh with detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here,[Tic Tac Toe]()
+The live link can be found here,[Tic Tac Toe](https://menna-shamloul.github.io/XOO-Game/)
 
 ### Local Deployment
 
