@@ -90,7 +90,7 @@ It is box defines the game rules and how player could win.
 
 - No errors were found when passing through the official (jisaw) validator.
 
-![Css Code Validator]()
+![Css Code Validator](assets/images/css-val.png)
 
 ### _JS_
 
