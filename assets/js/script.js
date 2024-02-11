@@ -111,3 +111,8 @@ btn.forEach((element) =>{
     });
 }); 
 window.onload = enableButtons;
+const soundToggleBtn = document.getElementById("toggle-sound");
+soundToggleBtn.addEventListener("click", () => {
+    soundEnabled = !soundEnabled;
+    soundToggleBtn.innerText = soundEnabled ? "sound off" : "sound on";
+});
