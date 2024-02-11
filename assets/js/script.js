@@ -4,6 +4,7 @@ let newgameBtn = document.getElementById("new-game");
 let restartBtn = document.getElementById("restart");
 let message = document.getElementById("message");
 let title =document.querySelector('.title');
+let soundEnabled = true;  // keep track for sound state
 
 
 let winning = [

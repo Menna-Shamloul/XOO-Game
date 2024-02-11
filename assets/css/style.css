@@ -105,7 +105,7 @@ span{
     border: 2px solid;
     color: #240747;
     position:relative;
-    margin:1%;
+    margin: 1%;
     text-align: center;
     font-size: 1em;
     position: absolute;
@@ -129,4 +129,24 @@ span{
     margin: 0 auto;
     
     
+}
+
+#toggle-sound{
+    position: fixed;
+    background-color: #240747;
+    border: none;
+    color: white;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#toggle-sound:hover{
+    background-color: #c3195d;
 }
