@@ -4,6 +4,7 @@ let newgameBtn = document.getElementById("new-game");
 let restartBtn = document.getElementById("restart");
 let message = document.getElementById("message");
 let title =document.querySelector('.title');
+let soundToggleBtn = document.getElementById("toggle-sound");
 let soundEnabled = true;  // keep track for sound state
 
 
@@ -19,8 +20,21 @@ let winning = [
 ];
 
 function play() {
-    var audio = new Audio('assets/audio/win.wav');
-    audio.play();
+    if (soundEnabled) {
+        var audio = new Audio('assets/audio/win.wav');
+        audio.play();
+
+    }
+}
+
+function toggleSound() {
+    soundEnabled = !soundEnabled;
+    if (soundEnabled) {
+        soundToggleBtn.innerText = "Sound : On";
+    }else {
+        soundToggleBtn.innerText = "Sound : Off";
+    }
+ 
 }
 
 let xTurn = true;
@@ -110,9 +124,15 @@ btn.forEach((element) =>{
         winnerCheck();
     });
 }); 
-window.onload = enableButtons;
-const soundToggleBtn = document.getElementById("toggle-sound");
+window.onload = () => {
+    enableButtons();
+    updateSoundToggleButtonText();
+};
+
+const updateSoundToggleButtonText = () => {
+    soundToggleBtn.innerText = soundEnabled ? "Sound On" : "Sound Off";
+};
 soundToggleBtn.addEventListener("click", () => {
     soundEnabled = !soundEnabled;
-    soundToggleBtn.innerText = soundEnabled ? "sound off" : "sound on";
+    updateSoundToggleButtonText();
 });
