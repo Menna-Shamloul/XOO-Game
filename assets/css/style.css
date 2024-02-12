@@ -138,15 +138,54 @@ span{
     color: white;
     top: 20px;
     right: 20px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    width: 10%;
+    
 }
 
 #toggle-sound:hover{
     background-color: #c3195d;
+}
+
+#scoreboard {
+    background-color: #240747;
+    border: 2px solid #240747;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 20%;
+    position: fixed;
+    bottom: 20px;
+    right: 20x;
+    margin: 5px;
+
+}
+#scoreboard p {
+    margin: 5px 0;
+    color: #c3195d;
+}
+
+#scoreboard span {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    #toggle-sound {
+        width: 20%; /* Adjust width for smaller screens */
+    }
+}
+
+/* Media query for  smaller screens  */
+@media only screen and (max-width: 428px) {
+    #toggle-sound {
+        width: 40%; /* Adjust width for smaller screens */
+    }
 }
