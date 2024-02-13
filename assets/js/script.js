@@ -8,8 +8,8 @@ let soundToggleBtn = document.getElementById("toggle-sound");
 let soundEnabled = true;  // keep track for sound state
 let timerDisplay = document.getElementById("timer");
 let timerInterval;
-let timerRunning = false;
 let seconds = 0;
+let minutes = 0;
 
 
 let winning = [
@@ -42,35 +42,28 @@ function toggleSound() {
 }
 
 function startTimer() {
-    if (!timerRunning) {
-        timerRunning = true;
-        timerInterval = setInterval(updateTimer, 1000);
-    }
-
+    timerInterval = setInterval(() => {
+        seconds++;
+        if (seconds >= 60) {
+            seconds = 0;
+            minutes++;
+        }
+        timerElement.innerText = `${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+    },1000);
 }
 
 function pauseTimer() {
     clearInterval(timerInterval);
-    timerRunning = false;
+
 }
 
 function resetTimer() {
     clearInterval(timerInterval);
-    timerRunning = false;
     seconds = 0;
-    updateTimerDisplay();
+    minutes = 0;
+    timerDisplay.innerText = '00:00';
 }
 
-function updateTimer() {
-    seconds++;
-    updateTimerDisplay();
-}
-
-function updateTimerDisplay() {
-    const minutes = Math.floor(seconds / 60);
-    const remainderSeconds = seconds % 60;
-    timerDisplay.innerHTML = `${minutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
-}
 
 let xTurn = true;
 let count = 0;
@@ -78,7 +71,7 @@ let count = 0;
 const disableButtons = () =>{
     btn.forEach((element) => (element.disabled = true));
     popup.classList.remove("hide");
-    pauseTimer();
+    
 };
 
 const enableButtons = () =>{
@@ -87,27 +80,31 @@ const enableButtons = () =>{
         element.disabled = false;
     });
     popup.classList.add("hide");
-    resetTimer();
+
 };
 
 const winFun = (letter) => {
     disableButtons();
+    pauseTimer();
     if(letter == "X"){
         message.innerHTML = "'X' Wins";
         message.style.color = '#ED3E3E'
         play()
+    
         
     }
     else{
         message.innerHTML = "'O' Wins";
         message.style.color = '#3F66Da'
         play()
+    
         
     }
 };
 
 const drawFun = () =>{
     disableButtons();
+    pauseTimer();
     message.innerHTML = "Draw";
 }
 
@@ -168,6 +165,9 @@ btn.forEach((element) =>{
 window.onload = () => {
     enableButtons();
     updateSoundToggleButtonText();
+    startTimer();
+
+
 };
 
 const updateSoundToggleButtonText = () => {
