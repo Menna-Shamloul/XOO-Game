@@ -6,7 +6,7 @@ let message = document.getElementById("message");
 let title =document.querySelector('.title');
 let soundToggleBtn = document.getElementById("toggle-sound");
 let soundEnabled = true;  // keep track for sound state
-let timerDisplay = document.getElementById("timer");
+let timerElement = document.getElementById("timer");
 let timerInterval;
 let seconds = 0;
 let minutes = 0;
@@ -61,7 +61,7 @@ function resetTimer() {
     clearInterval(timerInterval);
     seconds = 0;
     minutes = 0;
-    timerDisplay.innerText = '00:00';
+    timerElement.innerText = '00:00';
 }
 
 
