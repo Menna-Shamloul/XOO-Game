@@ -10,6 +10,8 @@ let timerElement = document.getElementById("timer");
 let timerInterval;
 let seconds = 0;
 let minutes = 0;
+let score_o = 0;
+let score_x = 0;
 
 
 let winning = [
@@ -90,6 +92,8 @@ const winFun = (letter) => {
         message.innerHTML = "'X' Wins";
         message.style.color = '#ED3E3E'
         play()
+        score_x = score_x + 1;
+        document.getElementById("score-x").innerHTML = score_x;
     
         
     }
@@ -97,6 +101,8 @@ const winFun = (letter) => {
         message.innerHTML = "'O' Wins";
         message.style.color = '#3F66Da'
         play()
+        score_o = score_o + 1;
+        document.getElementById("score-o").innerHTML = score_o;
     
         
     }
@@ -118,10 +124,14 @@ newgameBtn.addEventListener("click", ()=>{
 
 restartBtn.addEventListener("click", ()=>{
     count = 0;
+    score_o = 0;
+    score_x = 0;
     enableButtons();
     title.innerHTML = 'X O GAME';
     resetTimer();
     startTimer();
+    document.getElementById("score-o").innerHTML = score_o;
+    document.getElementById("score-x").innerHTML = score_x;
 });
 
 const winnerCheck = () =>{
