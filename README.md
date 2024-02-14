@@ -3,7 +3,7 @@
 Tac Tac Toe game is a class game that is commonly played amoung all people spiecally.
 It is played by two people who take turn marking on X or O on 3x3 grid.The first person to mark three of their signs in a horizontal, vertical,diagonal row is the winner.
 
-![AmIResponsive](assets/images/resp-image.png)
+![AmIResponsive](assets/images/jsr_img.png)
 
 
 ## UX
@@ -36,11 +36,14 @@ There are many features exist in this app that can help the player with the game
 
 - **Instruction** The instruction show the player how to play the game.
 - **Turn Box** The box which shows the players turn.
+- **Score Board** The box which shows the score for X and O.
+- **Timer Box** The box which shows the time of the game.
+- **Sound Toggle** The sound On/Off button which use to control the sound.
 - **Restart Game Button** The restart button to be used to restart game.
 - **Win Message** The message which show the winner of the game.
 - **New Game Button** The start game button feature offers users the ability to initiate the game at their discretion.
 
-![Feature](assets/images/home-image.png)
+![Feature](assets/images/board-img.png)
 
 ![Feature](assets/images/instruction-image.png)
 
@@ -98,7 +101,7 @@ It is box defines the game rules and how player could win.
 
 The page achieved great performance.
 
-![Lighthouse Report](assets/images/lighthouse-image.png)
+![Lighthouse Report](assets/images/ligitjs_img.png)
 
 ## Libraries & Programs
 
