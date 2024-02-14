@@ -35,6 +35,7 @@ span{
     left: 50%;
 }
 
+/* add style to main container */
 .container {
     width: 70vmin;
     height: 70vmin;
@@ -53,6 +54,7 @@ span{
 
 }
 
+/* add style to restart button */
 #restart {
     font-size: 30px;
     background-color: #240747;
@@ -83,6 +85,7 @@ span{
     display: none;
 }
 
+/* add style to newgame buttom */
 #new-game {
     font-size: 30px;
     padding: 0.5em 1em;
@@ -99,6 +102,7 @@ span{
     font-size: 1em;
 }
 
+/* add style to rule box */
 #rule{
     height: 15%;
     width: 30%;
@@ -131,6 +135,7 @@ span{
     
 }
 
+/* add style to sound toggle */
 #toggle-sound{
     position: fixed;
     background-color: #240747;
@@ -153,6 +158,7 @@ span{
     background-color: #c3195d;
 }
 
+/* add style to scoreboard */
 #scoreboard {
     background-color: #240747;
     border: 2px solid #240747;
@@ -189,7 +195,7 @@ span{
         width: 40%; /* Adjust width for smaller screens */
     }
 }
-
+/* add style to timer box */
 #timer {
     position: fixed;
     font-size: 24px;

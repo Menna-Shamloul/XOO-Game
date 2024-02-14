@@ -33,6 +33,7 @@ function play() {
     }
 }
 
+// create toggle sound fuction
 function toggleSound() {
     soundEnabled = !soundEnabled;
     if (soundEnabled) {
@@ -43,6 +44,7 @@ function toggleSound() {
  
 }
 
+// create function to start the timer
 function startTimer() {
     timerInterval = setInterval(() => {
         seconds++;
@@ -54,11 +56,13 @@ function startTimer() {
     },1000);
 }
 
+// create function to stoptimer when game end
 function pauseTimer() {
     clearInterval(timerInterval);
 
 }
 
+// create function to reset timer when start new game
 function resetTimer() {
     clearInterval(timerInterval);
     seconds = 0;
@@ -92,7 +96,7 @@ const winFun = (letter) => {
         message.innerHTML = "'X' Wins";
         message.style.color = '#ED3E3E'
         play()
-        score_x = score_x + 1;
+        score_x = score_x + 1;  // add 1 to x score when x win
         document.getElementById("score-x").innerHTML = score_x;
     
         
@@ -101,13 +105,14 @@ const winFun = (letter) => {
         message.innerHTML = "'O' Wins";
         message.style.color = '#3F66Da'
         play()
-        score_o = score_o + 1;
+        score_o = score_o + 1;  // add 1 to score o when o win
         document.getElementById("score-o").innerHTML = score_o;
     
         
     }
 };
 
+// create draw function and stop timer
 const drawFun = () =>{
     disableButtons();
     pauseTimer();
@@ -134,6 +139,7 @@ restartBtn.addEventListener("click", ()=>{
     document.getElementById("score-x").innerHTML = score_x;
 });
 
+// create checkfunction to check who is when
 const winnerCheck = () =>{
     for(let i of winning){
         let [element1, element2, element3] = [
@@ -174,12 +180,13 @@ btn.forEach((element) =>{
 }); 
 window.onload = () => {
     enableButtons();
-    updateSoundToggleButtonText();
-    startTimer();
+    updateSoundToggleButtonText();  // call updatesound at the beginning of the game
+    startTimer();   // call starttimer at the beginning of the game
 
 
 };
 
+// create update soundtoggle function
 const updateSoundToggleButtonText = () => {
     soundToggleBtn.innerText = soundEnabled ? "Sound On" : "Sound Off";
 };
